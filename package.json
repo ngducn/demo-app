@@ -11,5 +11,8 @@
   },
   "dependencies": {
     "eslint": "^8.48.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
