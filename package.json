@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "eslint-plugin-prettier": "5.0.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.3"
+  },
+  "scripts": {
+    "commitlint": "commitlint --edit",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "eslint": "^8.48.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
